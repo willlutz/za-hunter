@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
-
 @main
-struct za_hunterApp: App {
+struct _Za_HunterApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+
+
+
+

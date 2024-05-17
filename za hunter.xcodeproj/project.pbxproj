@@ -11,6 +11,7 @@
 		3FD49C5B2B8E368C00F31647 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD49C5A2B8E368C00F31647 /* ContentView.swift */; };
 		3FD49C5D2B8E368E00F31647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD49C5C2B8E368E00F31647 /* Assets.xcassets */; };
 		3FD49C602B8E368E00F31647 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD49C5F2B8E368E00F31647 /* Preview Assets.xcassets */; };
+		3FD49C672B8E382400F31647 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD49C662B8E382400F31647 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3FD49C5A2B8E368C00F31647 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FD49C5C2B8E368E00F31647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FD49C5F2B8E368E00F31647 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FD49C662B8E382400F31647 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3FD49C582B8E368C00F31647 /* za_hunterApp.swift */,
 				3FD49C5A2B8E368C00F31647 /* ContentView.swift */,
+				3FD49C662B8E382400F31647 /* LocationManager.swift */,
 				3FD49C5C2B8E368E00F31647 /* Assets.xcassets */,
 				3FD49C5E2B8E368E00F31647 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				3FD49C5B2B8E368C00F31647 /* ContentView.swift in Sources */,
 				3FD49C592B8E368C00F31647 /* za_hunterApp.swift in Sources */,
+				3FD49C672B8E382400F31647 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = LTR6BBYG7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = LTR6BBYG7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
